@@ -48,7 +48,7 @@
 
   **React testing library is not only a library, it's also a philosophy of how to test**
 
-  ## Includes best practices:
+  **Includes best practices:**
   - Test your software the way users actually use it.
   - Remove internal implementation.
   - Find elements by accessibility markers, not tests IDs.
@@ -70,7 +70,7 @@
 
 ## Global test method (jest/vitest):
 
-  test('', () => {});
+  `test('', () => {});`
 
   - Global test method has two arguments:
     1. string description
