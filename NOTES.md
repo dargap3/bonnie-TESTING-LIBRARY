@@ -53,7 +53,7 @@
   - Remove internal implementation.
   - Find elements by accessibility markers, not tests IDs.
 
-  [https://developer.mozilla.org/en-US/docs/Web/Accessibility/ARIA/ARIA_Techniques#roles](url)  *web accessibility roles*
+  [https://developer.mozilla.org/en-US/docs/Web/Accessibility/ARIA/ARIA_Techniques#roles](url)  *web accessibility roles*  
   [https://testing-library.com/docs/queries/about/#priority](url)  *queries priority*
 
 ## jest/vitest
