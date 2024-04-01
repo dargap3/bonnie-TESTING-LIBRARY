@@ -5,7 +5,7 @@
 - Write tests before writing code - then crite code according to "spec" set by tests.
 - It's often called "red-green" testing --> tests fail before code is written and after code is written the tests pass.
 
--  ## Why TDD?
+## Why TDD?
 
    - Makes a huge difference in how it feels to write tests.
    - Part of the coding process, not a "chore" to do at the end.
@@ -36,7 +36,7 @@
    - High-level makes them resistant to refactors.
    - High-level makes them difficult to diagnose.
   
-- ## React testing library
+## React testing library
 
   - Provides simulated DOM for tests.
   - Provides ways to manipulate and examine simulated DOM (click buttons and see how things look after we click the button)
@@ -48,7 +48,7 @@
 
   **React testing library is not only a library, it's also a philosophy of how to test**
 
-  ## Best practices:
+  ## Includes best practices:
   - Test your software the way users actually use it.
   - Remove internal implementation.
   - Find elements by accessibility markers, not tests IDs.
@@ -58,31 +58,32 @@
 
 ## jest/vitest
 
-- Test runner: finds tests, runs tests, determines whether tests pass or fail, makes assetions.
-- In a big picture there is no differences between jest and vitest, only the setup  and some minor differences when we use advance syntax.
+  - Test runner: finds tests, runs tests, determines whether tests pass or fail, makes assetions.
+  - In a big picture there is no differences between jest and vitest, only the setup  and some minor differences when we use advance syntax.
 
-[https://vitest.dev/guide/migration#migrating-from-jest](url)  *guide to migrate from jest to vitest*
+  [https://vitest.dev/guide/migration#migrating-from-jest](url)  *guide to migrate from jest to vitest*
 
 ##  jest-DOM
-imported before each test (by test setup) makes matchers available
-dom-based matchers
 
-Global test method hast two arguments:
+  - Imported before each test (by test setup) makes matchers available.
+  - Dom-based matchers.
 
--string description
--test function
+## Global test method (jest/vitest):
 
-Test fails if error is thrown when running function
- -assertions throw errors when expectaction fails
-No error _> test pass
+  test('', () => {});
 
-Empty test passes.
+  - Global test method has two arguments:
+    1. string description
+    2. test function
 
+  - Test fails if error is thrown when running function.
+  - Assertions throw errors when expectaction fails.
+  - No error ---> test pass.
+  - Empty test passes.
 
-
-render
-create simulated DOM for argument component
-access simulated DOM via screen global
+## Render (RTL):
+  - create simulated DOM for argument component.
+  - access simulated DOM via screen global.
 
 Assertions:
 
