@@ -1,4 +1,4 @@
-[https://github.com/bonnie/udemy-TESTING-LIBRARY](url)  *base repo*
+[https://github.com/bonnie/udemy-TESTING-LIBRARY](https://github.com/bonnie/udemy-TESTING-LIBRARY)  *base repo*
 
 # TDD - Test driven development
 
@@ -53,15 +53,15 @@
   - Remove internal implementation.
   - Find elements by accessibility markers, not tests IDs.
 
-  [web accessibility roles](https://developer.mozilla.org/en-US/docs/Web/Accessibility/ARIA/ARIA_Techniques#roles)  *web accessibility roles*  
-  [https://testing-library.com/docs/queries/about/#priority](url)  *queries priority*
+  [https://developer.mozilla.org/en-US/docs/Web/Accessibility/ARIA/ARIA_Techniques#roles](https://developer.mozilla.org/en-US/docs/Web/Accessibility/ARIA/ARIA_Techniques#roles)  *web accessibility roles*  
+  [https://testing-library.com/docs/queries/about/#priority](https://testing-library.com/docs/queries/about/#priority)  *queries priority*
 
 ## jest/vitest
 
   - Test runner: finds tests, runs tests, determines whether tests pass or fail, makes assetions.
   - In a big picture there is no differences between jest and vitest, only the setup  and some minor differences when we use advance syntax.
 
-  [https://vitest.dev/guide/migration#migrating-from-jest](url)  *guide to migrate from jest to vitest*
+  [https://vitest.dev/guide/migration#migrating-from-jest](https://vitest.dev/guide/migration#migrating-from-jest)  *guide to migrate from jest to vitest*
 
 ##  jest-DOM
 
@@ -85,12 +85,14 @@
   - create simulated DOM for argument component.
   - access simulated DOM via screen global.
 
-Assertions:
+## Assertions:
 
-they all start with expect method (global method from jest/vitest)
-expect argument is the subject of the assertion 
-matcher comes from jest-DOM
-matcher argument --> refines matcher
+  - They all start with expect method (global method from jest/vitest).
+  - Expect argument is the subject of the assertion.
+  - Matcher comes from jest-DOM.
+  - Matcher argument --> refines matcher
+
+    `expect(data).toEqual({one: 1, two: 2});`
 
 
 
