@@ -54,7 +54,8 @@
   - Find elements by accessibility markers, not tests IDs.
 
   [https://developer.mozilla.org/en-US/docs/Web/Accessibility/ARIA/ARIA_Techniques#roles](https://developer.mozilla.org/en-US/docs/Web/Accessibility/ARIA/ARIA_Techniques#roles)  *web accessibility roles*  
-  [https://testing-library.com/docs/queries/about/#priority](https://testing-library.com/docs/queries/about/#priority)  *queries priority*
+  [https://testing-library.com/docs/queries/about/#priority](https://testing-library.com/docs/queries/about/#priority)  *queries priority*  
+  [https://testing-library.com/docs/react-testing-library/cheatsheet/](https://testing-library.com/docs/react-testing-library/cheatsheet/)  *react testing library cheatsheet*  
 
 ## jest/vitest
 
@@ -67,6 +68,8 @@
 
   - Imported before each test (by test setup) makes matchers available.
   - Dom-based matchers.
+
+  [https://github.com/testing-library/jest-dom](https://github.com/testing-library/jest-dom)  *jest dom documentation*  
 
 ## Global test method (jest/vitest):
 
@@ -93,6 +96,21 @@
   - Matcher argument --> refines matcher
 
     `expect(data).toEqual({one: 1, two: 2});`
+
+## Fire events vs User events
+
+  - In general fire events is ok, but user event is better.
+  - It simulates events in a more complete and realistic way than fire event.
+  - Fire event dispatches dom events, is a way to simulate computer events.
+  - User event simulate full and complete user interactions.
+
+## User Event
+  - Whenever we use user event, we need to start a session with the setup method.
+  - The user event apis always return a promise.
+  - We need to use await.
+    
+  [https://github.com/testing-library/user-event](https://github.com/testing-library/user-event)  *user event documentation*  
+  [https://github.com/testing-library/user-event](https://github.com/testing-library/user-event)  *user event documentation*  
 
 
 
