@@ -134,3 +134,31 @@
      - DisplayValue
 
   [https://testing-library.com/docs/queries/about/](https://testing-library.com/docs/queries/about/)  *RTL queries docs*  
+
+  ## Mock Service Worker
+   - Purpuse:
+     - intercept network calls.
+     - return specified responses.
+   - Prevents network calls during tests.
+   - Set up test conditions using server response.
+
+   ### set up
+    - Install it.
+    - Create handlers. Handlers are functions that will determine what is returned for any particular URL and route.
+    - Create test server.
+    - Make sure test server listens during all tests.
+     - Reset after eact test.
+
+   ### Mock service worker handler
+     - Handler type: http or graphql
+     - Http method to mock: get, post, etc.
+     - Full URL to mock.
+
+  [https://mswjs.io/](https://mswjs.io/)  *MSW documentation*  
+  [https://mswjs.io/docs/basics/mocking-responses](https://mswjs.io/docs/basics/mocking-responses)  *MSW mocking responses* 
+  [https://mswjs.io/docs/integrations/node](https://mswjs.io/docs/integrations/node)  *Node integration* 
+  [https://mswjs.io/docs/network-behavior/rest#response-resolver](https://mswjs.io/docs/network-behavior/rest#response-resolver)  *MSW response resolver* 
+  [https://mswjs.io/docs/runbook/](https://mswjs.io/docs/runbook/)  *MSW run book* 
+
+  
+  
