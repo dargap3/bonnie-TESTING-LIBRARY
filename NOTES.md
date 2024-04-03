@@ -154,11 +154,9 @@
      - Http method to mock: get, post, etc.
      - Full URL to mock.
 
-  [https://mswjs.io/](https://mswjs.io/)  *MSW documentation*  
-  [https://mswjs.io/docs/basics/mocking-responses](https://mswjs.io/docs/basics/mocking-responses)  *MSW mocking responses* 
-  [https://mswjs.io/docs/integrations/node](https://mswjs.io/docs/integrations/node)  *Node integration* 
-  [https://mswjs.io/docs/network-behavior/rest#response-resolver](https://mswjs.io/docs/network-behavior/rest#response-resolver)  *MSW response resolver* 
-  [https://mswjs.io/docs/runbook/](https://mswjs.io/docs/runbook/)  *MSW run book* 
-
-  
+  [https://mswjs.io/](https://mswjs.io/)  *MSW documentation*   
+  [https://mswjs.io/docs/basics/mocking-responses](https://mswjs.io/docs/basics/mocking-responses)  *MSW mocking responses*   
+  [https://mswjs.io/docs/integrations/node](https://mswjs.io/docs/integrations/node)  *Node integration*  
+  [https://mswjs.io/docs/network-behavior/rest#response-resolver](https://mswjs.io/docs/network-behavior/rest#response-resolver)  *MSW response resolver*  
+  [https://mswjs.io/docs/runbook/](https://mswjs.io/docs/runbook/)  *MSW run book*  
   
