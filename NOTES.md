@@ -112,10 +112,25 @@
   [https://github.com/testing-library/user-event](https://github.com/testing-library/user-event)  *user event documentation*  
   [https://github.com/testing-library/user-event](https://github.com/testing-library/user-event)  *user event documentation*  
 
+## screen Query Methods
+**command[All]ByQueryType**
 
+  ### comand:
+   - get: expect element to be in DOM.
+   - query: expect element not to be in DOM.
+   - find: expect element to appear async.
 
+  ### [All]
+   - (exclude) expect only one match.
+   - (include) expect more than one match.
 
+  ### QueryType:
+   - Role (most preferred)
+   - AltText (images)
+   - Text (display elements)
+   - Form elements
+     - PlaceholderText
+     - LabelText
+     - DisplayValue
 
-
-
-
+  [https://testing-library.com/docs/queries/about/](https://testing-library.com/docs/queries/about/)  *RTL queries docs*  
